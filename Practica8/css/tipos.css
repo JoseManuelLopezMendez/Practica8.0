@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+.contenedor{
+width: 100%;
+background-color: blue;
+margin: auto;
+}
+.superior{
+    background-color: rgb(33, 33, 128);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 400px;
+    padding: 35px;
+}
+
+/*Estilos del menu*/
+.menu{
+    float: right;
+    padding: 60px;
+    overflow: hidden;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    
+}
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.opciones li a:hover{
+    color: purple;
+    cursor: pointer;
+}
+.cuerpo{
+    overflow: hidden;
+    border: 2px solid;
+}
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    padding: 60px;
+}
+.titulo{
+    background-image: url(https://www.hd-tecnologia.com/imagenes/articulos/2022/04/Top-10-de-los-mejores-juegos-de-aventura.jpg);
+    padding: 40px;
+}
+.imagen1{
+    float: right;
+    width: 400px ;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid purple;
+}
+.info1{
+    float: left;
+    width: 400px;
+    margin: 10px;
+    padding: 40px;
+    border: 2px solid blue;
+}
+.imagen2{
+    float: left;
+    width: 400px;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid purple;
+}
+.info2{
+    float: right;
+    width: 400px ;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid blue
+    
+}
+
+.subtitulo{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 60px;
+color: blueviolet;
+}
+p{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.piePagina{
+    background-color: purple;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.pie p{
+    font-size: 13px;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
